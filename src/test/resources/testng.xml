@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mustadam Checkout Suite">
+    <listeners>
+        <listener class-name="com.mustadam.base.TestListener"/>
+    </listeners>
+    <test name="Checkout Flow Tests">
+        <classes>
+            <class name="com.mustadam.tests.CheckoutFlowTest"/>
+        </classes>
+    </test>
+</suite>
